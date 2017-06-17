@@ -356,6 +356,7 @@
 
 .stock-content {
   text-align: center;
+  position: relative;
   margin: 0 auto;
   font: 100% "OpenSans-Bold", sans-serif;
   color: #fff; }

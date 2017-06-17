@@ -169,5 +169,61 @@ $(document).ready(function () {
 
 		});
 
+		//parallax
+		var scene = document.getElementById('scene');
+ 		 var parallax = new Parallax(scene);
+
+
+ 		 //animation
+ 		 (function($) {
+			$.fn.animated = function(inEffect) {
+				$(this).each(function() {
+					var ths = $(this);
+					ths.css("opacity", "0").addClass("animated").waypoint(function(dir) {
+						if (dir === "down") {
+							ths.addClass(inEffect).css("opacity", "1");
+						}
+					}, {
+						offset: "90%"
+					});
+
+				});
+			};
+		})(jQuery);
+
+		//deleted animation for mobile
+ 		 var isMobile = {
+		    Android:        function() { return navigator.userAgent.match(/Android/i) ? true : false; },
+		    BlackBerry:     function() { return navigator.userAgent.match(/BlackBerry/i) ? true : false; },
+		    iOS:            function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; },
+		    Windows:        function() { return navigator.userAgent.match(/IEMobile/i) ? true : false; },
+		    any:            function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());  }
+		};
+  
+		if ( !isMobile.any() ) {
+    			$(".item").animated("slideInDown");
+    			$(".benone-right").animated("fadeInRight");
+    			$(".benone-left").animated("fadeInLeft");
+    			$(".stock-content").animated("bounceInUp");
+    			$(".des-people").animated("pulse");
+    			$(".services-item:nth-child(1)").animated("fadeInLeft");
+    			$(".services-item:nth-child(3)").animated("fadeInRight");
+    			$(".order-item:nth-child(1)").animated("fadeInRight");
+    			$(".order-item:nth-child(3)").animated("fadeInLeft");
+    			$(".price-table").animated("fadeInRight");
+    			$(".price-left").animated("fadeInLeft");
+    			$(".people-item").animated("rotateInUpLeft");
+    			$(".reviews-item").animated("rotateInUpRight");
+    			$(".curtains").animated("slideInDown");
+    			$(".block-slider-txt").animated("slideInUp");
+    			$(".projects").animated("zoomIn");
+    			$(".interior-item:odd").animated("fadeInRight");
+    			$(".interior-item:even").animated("fadeInLeft");
+    			$(".social-item:even").animated("slideInUp");
+    			$(".social-item:odd").animated("slideInDown");
+    			$(".clients").animated("slideInLeft");
+    			$(".form-send").animated("zoomIn");
+    			$(".footer-content-txt").animated("slideInRight");
+		}
 
 });
