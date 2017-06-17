@@ -201,7 +201,7 @@ $(document).ready(function () {
 		};
   
 		if ( !isMobile.any() ) {
-    			$(".item").animated("slideInDown");
+    			$(".about").animated("slideInDown");
     			$(".benone-right").animated("fadeInRight");
     			$(".benone-left").animated("fadeInLeft");
     			$(".stock-content").animated("bounceInUp");
