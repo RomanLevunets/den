@@ -1,5 +1,26 @@
 $(document).ready(function () {
 
+	//fixed header
+	// В процесе((
+	// $(window).scroll(function(){
+	// 	if ($(this).scrollTop() > 100){
+	// 		$('.menu').addClass('fixed').fadeIn('duration ');
+	// 	}
+	// 	else{
+	// 		$('.menu').removeClass('fixed').fadeIn('duration ');
+	// 	}
+	// });
+
+	//fixed arrow go to top
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 500){
+			$('.goTop').css({'display': 'block'});
+		}
+		else{
+			$('.goTop').css({'display': 'none'});
+		}
+	});
+
 	//sliders
 	$('.clients').owlCarousel({
 		items: 4,
@@ -100,7 +121,7 @@ $(document).ready(function () {
 	});
 
 		//anchours
-	$(".menu-item-meth").click(function() {
+	$('.menu-item-meth, .goTop').click(function() {
 		    var elementClick = $(this).attr("href");
 		    var destination = $(elementClick).offset().top;
 		    jQuery("html:not(:animated),body:not(:animated)").animate({
@@ -169,9 +190,15 @@ $(document).ready(function () {
 
 		});
 
+
+		$('.project-hover-icon').click(function(){
+			$(this).toggleClass('active');
+	
+		});
+
 		//parallax
 		var scene = document.getElementById('scene');
- 		 var parallax = new Parallax(scene);
+ 		var parallax = new Parallax(scene);
 
 
  		 //animation
@@ -191,6 +218,7 @@ $(document).ready(function () {
 			};
 		})(jQuery);
 
+
 		//deleted animation for mobile
  		 var isMobile = {
 		    Android:        function() { return navigator.userAgent.match(/Android/i) ? true : false; },
@@ -202,8 +230,8 @@ $(document).ready(function () {
   
 		if ( !isMobile.any() ) {
     			$(".about").animated("slideInDown");
-    			$(".benone-right").animated("fadeInRight");
-    			$(".benone-left").animated("fadeInLeft");
+    			$(".benone-right").animated("slideInRight");
+    			$(".benone-left").animated("slideInLeft");
     			$(".stock-content").animated("bounceInUp");
     			$(".des-people").animated("pulse");
     			$(".services-item:nth-child(1)").animated("fadeInLeft");
@@ -224,6 +252,11 @@ $(document).ready(function () {
     			$(".clients").animated("slideInLeft");
     			$(".form-send").animated("zoomIn");
     			$(".footer-content-txt").animated("slideInRight");
+
 		}
+
+
+
+
 
 });
