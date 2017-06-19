@@ -1,24 +1,5 @@
 $(document).ready(function() {
 
-    //fixed header
-    // В процесе((
-    // $(window).scroll(function(){
-    // 	if ($(this).scrollTop() > 100){
-    // 		$('.menu').addClass('fixed').fadeIn('duration ');
-    // 	}
-    // 	else{
-    // 		$('.menu').removeClass('fixed').fadeIn('duration ');
-    // 	}
-    // });
-
-
-    $('.icon-item:last-child').click(function() {
-
-
-
-    });
-
-
 
     //fixed arrow go to top
     $(window).scroll(function() {
@@ -140,13 +121,6 @@ $(document).ready(function() {
 
 
     //preloader
-    // var hellopreloader = document.getElementById("hellopreloader_preload");
-
-    // function fadeOutnojquery(el) { el.style.opacity = 1;
-    //     var interhellopreloader = setInterval(function() { el.style.opacity = el.style.opacity - 0.05;
-    //         if (el.style.opacity <= 0.05) { clearInterval(interhellopreloader);
-    //             hellopreloader.style.display = "none"; } }, 16); }
-    // window.onload = function() { setTimeout(function() { fadeOutnojquery(hellopreloader); }, 1000); };
 
 
     //select desinger
