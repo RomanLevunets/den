@@ -1,574 +1,662 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Ben</title>
-	<link href="css/libs.min.css" rel="stylesheet" type="text/css" >
-	<link href="css/main.css" rel="stylesheet" type="text/css" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ben</title>
+    <link href="css/libs.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="wrapper">
-		<section class="section-header" style="background-image: url('img/home.jpg');">
-			<div class="w-home">
-				<header class="header" id="header">
-					<div class="over-header">
-						<div class="over-header-tell">
-							<span class="over-header-tell-txt">+7 (495) <span class="bold">665-00-00</span></span>
-							<span class="over-header-tell-txt">ЗАКАЗАТЬ Обратный звонок</span>
-						</div>
-						<div class="over-header-logo" id="scene">
-							<a href="index.html" class="layer" data-depth="0.50">
-								<img src="img/logo.png" alt="logo">
-							</a>
-						</div>
-						<div class="over-header-icon">
-							<ul class="icon">
-								<li class="icon-item">
-									<a href="#" class="icon-item-meth"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-								</li>
-								<li class="icon-item">
-									<a href="#" class="icon-item-meth"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
-								</li>
-								<li class="icon-item">
-									<a href="#" class="icon-item-meth"><i class="fa fa-search" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<nav>
-						<ul class="menu">
-							<li class="menu-item"><a href="#about" class="menu-item-meth">о нас</a></li>
-							<li class="menu-item"><a href="#interior" class="menu-item-meth">интерьер</a></li>
-							<li class="menu-item"><a href="#services" class="menu-item-meth">услугы и цены</a></li>
-							<li class="menu-item"><a href="#portfolio" class="menu-item-meth">портфолио</a></li>
-							<li class="menu-item"><a href="#desingers" class="menu-item-meth">дизайнеры</a></li>
-							<li class="menu-item"><a href="#contact" class="menu-item-meth">контакты</a></li>
-						</ul>
-					</nav>
-				</header>
-				<div class="head-text">
-					<h1 class="head-text-h1">дом итальянской моды в сфере домашнего текстиля<br>
+    <div class="wrapper">
+        <section class="section-header" style="background-image: url('img/home.jpg');">
+            <div class="w-home">
+                <header class="header" id="header">
+                    <div class="over-header">
+                        <a href="#form-tell" class="over-header-tell">
+                            <span class="over-header-tell-txt">+7 (495) <span class="bold">665-00-00</span></span>
+                            <span class="over-header-tell-txt">ЗАКАЗАТЬ Обратный звонок</span>
+                        </a>
+                        <div class="over-header-logo" id="scene">
+                            <a href="index.html" class="layer" data-depth="0.50">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="over-header-icon">
+                            <ul class="icon">
+                                <li class="icon-item">
+                                    <a href="#" class="icon-item-meth"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="icon-item">
+                                    <a href="#" class="icon-item-meth"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="icon-item-search">
+                                    <form class="form-search">
+                                        <input type="text" name="search" class="form-search-item"/>
+                                    </form>
+                                </li>
+                                <li class="icon-item">
+                                    <a href="#" class="icon-item-meth"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#about" class="menu-item-meth">о нас</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#interior" class="menu-item-meth">интерьер</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#services" class="menu-item-meth">услугы и цены</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#portfolio" class="menu-item-meth">портфолио</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#desingers" class="menu-item-meth">дизайнеры</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact" class="menu-item-meth">контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="head-text">
+                    <h1 class="head-text-h1">дом итальянской моды в сфере домашнего текстиля<br>
 						<span class="h1-bold">Дизайн / проектирование / пошив / продажа</span><br>
 						Просто расскажите — каким вы видите мир. Остальное за нами!</h1>
-				</div>
-				<div class="header-button">
-					<a href="#" class="header-button-meth">каталог тканей</a>
-					<a href="#" class="header-button-meth">портфолио</a>
-				</div>
-				<ul class="dots">
-					<li class="dots-item active"></li>
-					<li class="dots-item"></li>
-					<li class="dots-item"></li>
-				</ul>
-			</div>
-		</section>
-		<section class="section-about" id="about">
-			<div class="container">
-				<div class="container-txt clearfix">
-					<h3 class="container-txt-left clearfix">о нас</h3>
-					<span class="container-txt-right clearfix">Каждому клиенту гарантируется непревзойденное качество европейских материалов и качество европейских мастерство индивидуального производства</span>
-				</div>
-				<div class="content-top about">
-					<a href="#" class="item">
-						<span class="item-img"></span>
-						<span class="item-txt"><span class="item-txt-bold">10 000 ТКАНЕЙ</span> по эксклюзивным ценам</span>
-					</a>
-					<a href="#" class="item">
-						<span class="item-img"></span>
-						<span class="item-txt"><span class="item-txt-bold">BENONE — 8 ЛЕТ</span> на российском рынке</span>
-					</a>
-					<a href="#" class="item">
-						<span class="item-img"></span>
-						<span class="item-txt"><span class="item-txt-bold">3D ВИЗУАЛИЗАЦИЯ</span> в подарок каждому клиенту</span>
-					</a>
-					<a href="#" class="item">
-						<span class="item-img"></span>
-						<span class="item-txt"><span class="item-txt-bold">ГАРАНТИЯ 2 ГОДА</span> на все ткани и пошив</span>
-					</a>
-				</div>
-				<div class="content-bot clearfix ">
-					<div class="benone-left">
-						<p class="benone-left-bold">benone</p>
-						<span class="benone-left-txt">Benone — достойное предложение лучших европейских тканей, собственная фабрика в России, итальянские технологии эксклюзивного пошива плюс бережное отношение к каждому клиенту. Мы не только подбираем домашний текстиль, разрабатываем дизайн и воплощение для декоративных решений. Мы создаем эстетическое пространство нового уровня — атмосферу уютной гармонии, где хочется жить, любить, созидать. В этом смогли убедиться тысячи российских клиентов Benone.Страсть к созданию прекрасного — вот сущность нашей компании, где воедино сливаются искусство и практичность исполнения, идейное вдохновение и умение делать работу в соответствие с жесткими стандартами качества.Benone — это творческая мастерская, в которой трудятся истинные художники и знатоки своего дела. Каждый наш проект — единственное в своем роде творение, создаваемое ради отдельно взятого клиента. Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.<span class="last-string"> Просто расскажите — каким вы видите мир. Остальное за нами!</span></span>
-					</div>
-					<div class="benone-right" style="background-image: url('img/benone.jpg');"></div>
-				</div>
-			</div>
-		</section>
-		<section class="section-stock">
-			<div class="stock-content">
-				<h2 class="stock-content-head">Делаем как себе!<br> 3Д дизайн-проект в подарок!</h2>
-				<p class="stock-content-action">Акция</p>
-				<a href="#" class="stock-content-btn">подробнее</a>
-			</div>
-		</section>
-		<section class="section-desingers" id="desingers">
-			<div class="container">
-				<div class="container-txt clearfix">
-					<p class="container-txt-left clearfix">дизайнеры</p>
-					<span class="container-txt-right clearfix">Дизайн штор в исполнении наших мастеров — это идеальное воплощение ваших идей, знакомьтесь с нашим портфолио</span>
-				</div>
-				<div class="des-content">
-					<p class="des-content-txt">Стиль текстильного оформления рождается в результате совместной работы дизайнера и клиента. Дизайнер поможет создать красивую картину имеющегося в комнатах интерьера, сопоставить с 3D дизайн-проектом ваших новых штор.</p>
-					<p class="des-content-txt">Онлайн-каталог штор и Дом текстиля в Москве Benone-Russia помогут разобраться с большим ассортиментом наших предложений, взять за основу готовый проект декора штор из портфолио или заказать дизайнеру пошив штор по индивидуальным эскизам.</p>
-					<p class="des-content-txt">Выберите своего дизайнера.</p>
-				</div>
-				<div class="des-people owl-carousel">
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-					<div class="des-people-item clearfix">
-						<a href="#" class="des-acc">
-							<span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
-							<p class="des-acc-name">Людмила зыкина</p>
-							<p class="des-acc-prof">Дизайнер</p>
-						</a>
-					</div>
-				</div>
-				<a href="#" class="des-order">Заказать</a>
-			</div>
-		</section>
-		<section class="section-order">
-			<div class="wrap-order">
-				<a href="#" class="order-item">
-					<p class="order-item-icon"><i class="fa fa-plus-square-o" aria-hidden="true"></i></p>
-					<span class="order-item-head">ВЫБЕРИТЕ СВОЮ АКЦИЮ</span>
-					<span class="order-item-txt">Майские скидки на ткани! Подарки к Дню Победы!<br> 3Д дизайн-проект в подарок!</span>
-				</a>
-				<a href="#" class="order-item">
-					<p class="order-item-icon"><i class="fa fa-phone" aria-hidden="true"></i></p>
-					<span class="order-item-head">ПОЗВОНИТЕ НАМ +7 (495) 966-41-34</span>
-					<span class="order-item-txt"><span class="newString">каждый день с 9.00-21.00</span><span class="newString"> узнайте больше об акциях и специальных предложениях</span> задайте свой вопрос дизайнеру</span>
-				</a>
-				<a href="#" class="order-item">
-					<p class="order-item-icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
-					<span class="order-item-head">ПРИГЛАСИТЕ ДИЗАЙНЕРА</span>
-					<span class="order-item-txt"><span class="newString">согласуйте удобное время</span><span class="newString"> дизайнер привезёт образцы тканей и электронный каталог</span><span class="newString"> получите в подарок 3D дизайн штор</span></span>
-				</a>
-			</div>	
-		</section>
-		<section class="section-price" id="services">
-			<div class="container">
-				<div class="container-txt clearfix">
-					<p class="container-txt-left clearfix">УСЛУГИ И ЦЕНЫ</p>
-					<span class="container-txt-right clearfix">Только в мае на все ткани европейских производителей уникальные скидки: ткани производства Испании - 15%, ткани производства Германии - 20%, ткани производства Италии - 30%!</span>
-				</div>
-				<div class="content-top">
-					<div class="services clearfix">
-						<div class="services-item">
-							<div class="services-item-number number">
-								<span class="number-one">1</span>
-								<div class="number-icon"><i class="fa fa-star-o number-icon-size" aria-hidden="true"></i></div>
-							</div>
-							<div class="services-text">
-								<p class="services-text-head">ПРИГЛАСИТЕ ДИЗАЙНЕРА В ГОСТИ!</p>
-								<span class="services-text-sub">
+                </div>
+                <div class="header-button">
+                    <a href="#" class="header-button-meth">каталог тканей</a>
+                    <a href="#" class="header-button-meth">портфолио</a>
+                </div>
+                <ul class="dots">
+                    <li class="dots-item active"></li>
+                    <li class="dots-item"></li>
+                    <li class="dots-item"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-about" id="about">
+            <div class="container">
+                <div class="container-txt clearfix">
+                    <h3 class="container-txt-left clearfix">о нас</h3>
+                    <span class="container-txt-right clearfix">Каждому клиенту гарантируется непревзойденное качество европейских материалов и качество европейских мастерство индивидуального производства</span>
+                </div>
+                <div class="content-top about">
+                    <a href="#" class="item">
+                        <span class="item-img"></span>
+                        <span class="item-txt"><span class="item-txt-bold">10 000 ТКАНЕЙ</span> по эксклюзивным ценам</span>
+                    </a>
+                    <a href="#" class="item">
+                        <span class="item-img"></span>
+                        <span class="item-txt"><span class="item-txt-bold">BENONE — 8 ЛЕТ</span> на российском рынке</span>
+                    </a>
+                    <a href="#" class="item">
+                        <span class="item-img"></span>
+                        <span class="item-txt"><span class="item-txt-bold">3D ВИЗУАЛИЗАЦИЯ</span> в подарок каждому клиенту</span>
+                    </a>
+                    <a href="#" class="item">
+                        <span class="item-img"></span>
+                        <span class="item-txt"><span class="item-txt-bold">ГАРАНТИЯ 2 ГОДА</span> на все ткани и пошив</span>
+                    </a>
+                </div>
+                <div class="content-bot clearfix ">
+                    <div class="benone-left">
+                        <p class="benone-left-bold">benone</p>
+                        <span class="benone-left-txt">Benone — достойное предложение лучших европейских тканей, собственная фабрика в России, итальянские технологии эксклюзивного пошива плюс бережное отношение к каждому клиенту. Мы не только подбираем домашний текстиль, разрабатываем дизайн и воплощение для декоративных решений. Мы создаем эстетическое пространство нового уровня — атмосферу уютной гармонии, где хочется жить, любить, созидать. В этом смогли убедиться тысячи российских клиентов Benone.Страсть к созданию прекрасного — вот сущность нашей компании, где воедино сливаются искусство и практичность исполнения, идейное вдохновение и умение делать работу в соответствие с жесткими стандартами качества.Benone — это творческая мастерская, в которой трудятся истинные художники и знатоки своего дела. Каждый наш проект — единственное в своем роде творение, создаваемое ради отдельно взятого клиента. Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.<span class="last-string"> Просто расскажите — каким вы видите мир. Остальное за нами!</span></span>
+                    </div>
+                    <div class="benone-right" style="background-image: url('img/benone.jpg');"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-stock">
+            <div class="stock-content">
+                <h2 class="stock-content-head">Делаем как себе!<br> 3Д дизайн-проект в подарок!</h2>
+                <p class="stock-content-action">Акция</p>
+                <a href="#" class="stock-content-btn">подробнее</a>
+            </div>
+        </section>
+        <section class="section-desingers" id="desingers">
+            <div class="container">
+                <div class="container-txt clearfix">
+                    <p class="container-txt-left clearfix">дизайнеры</p>
+                    <span class="container-txt-right clearfix">Дизайн штор в исполнении наших мастеров — это идеальное воплощение ваших идей, знакомьтесь с нашим портфолио</span>
+                </div>
+                <div class="des-content">
+                    <p class="des-content-txt">Стиль текстильного оформления рождается в результате совместной работы дизайнера и клиента. Дизайнер поможет создать красивую картину имеющегося в комнатах интерьера, сопоставить с 3D дизайн-проектом ваших новых штор.</p>
+                    <p class="des-content-txt">Онлайн-каталог штор и Дом текстиля в Москве Benone-Russia помогут разобраться с большим ассортиментом наших предложений, взять за основу готовый проект декора штор из портфолио или заказать дизайнеру пошив штор по индивидуальным эскизам.</p>
+                    <p class="des-content-txt">Выберите своего дизайнера.</p>
+                </div>
+                <div class="des-people owl-carousel">
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                    <div class="des-people-item clearfix">
+                        <a href="#" class="des-acc">
+                            <span class="des-acc-photo" style="background-image: url('img/des-photo.png');"></span>
+                            <p class="des-acc-name">Людмила зыкина</p>
+                            <p class="des-acc-prof">Дизайнер</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="des-order">Заказать</a>
+            </div>
+        </section>
+        <section class="section-order">
+            <div class="wrap-order">
+                <a href="#" class="order-item">
+                    <p class="order-item-icon"><i class="fa fa-plus-square-o" aria-hidden="true"></i></p>
+                    <span class="order-item-head">ВЫБЕРИТЕ СВОЮ АКЦИЮ</span>
+                    <span class="order-item-txt">Майские скидки на ткани! Подарки к Дню Победы!<br> 3Д дизайн-проект в подарок!</span>
+                </a>
+                <a href="#" class="order-item">
+                    <p class="order-item-icon"><i class="fa fa-phone" aria-hidden="true"></i></p>
+                    <span class="order-item-head">ПОЗВОНИТЕ НАМ +7 (495) 966-41-34</span>
+                    <span class="order-item-txt"><span class="newString">каждый день с 9.00-21.00</span><span class="newString"> узнайте больше об акциях и специальных предложениях</span> задайте свой вопрос дизайнеру</span>
+                </a>
+                <a href="#" class="order-item">
+                    <p class="order-item-icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+                    <span class="order-item-head">ПРИГЛАСИТЕ ДИЗАЙНЕРА</span>
+                    <span class="order-item-txt"><span class="newString">согласуйте удобное время</span><span class="newString"> дизайнер привезёт образцы тканей и электронный каталог</span><span class="newString"> получите в подарок 3D дизайн штор</span></span>
+                </a>
+            </div>
+        </section>
+        <section class="section-price" id="services">
+            <div class="container">
+                <div class="container-txt clearfix">
+                    <p class="container-txt-left clearfix">УСЛУГИ И ЦЕНЫ</p>
+                    <span class="container-txt-right clearfix">Только в мае на все ткани европейских производителей уникальные скидки: ткани производства Испании - 15%, ткани производства Германии - 20%, ткани производства Италии - 30%!</span>
+                </div>
+                <div class="content-top">
+                    <div class="services clearfix">
+                        <div class="services-item">
+                            <div class="services-item-number number">
+                                <span class="number-one">1</span>
+                                <div class="number-icon"><i class="fa fa-star-o number-icon-size" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="services-text">
+                                <p class="services-text-head">ПРИГЛАСИТЕ ДИЗАЙНЕРА В ГОСТИ!</p>
+                                <span class="services-text-sub">
 									Дизайнер привезёт с собой конфеты,  а за чашкой чая поможет не растеряться в разнообразии материалов и подобрать стиль, оторый будет встречать вас утром и желать спокойной ночи перед сном.
 								</span>
-							</div>
-						</div>
-						<div class="services-item">
-							<div class="services-item-number number">
-								<span class="number-one">2</span>
-								<div class="number-icon"><i class="fa fa-linode number-icon-size" aria-hidden="true"></i></div>
-							</div>
-							<div class="services-text">
-								<p class="services-text-head">СОЗДАЙТЕ УНИКАЛЬНЫЙ ДИЗАЙН</p>
-								<span class="services-text-sub">
+                            </div>
+                        </div>
+                        <div class="services-item">
+                            <div class="services-item-number number">
+                                <span class="number-one">2</span>
+                                <div class="number-icon"><i class="fa fa-linode number-icon-size" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="services-text">
+                                <p class="services-text-head">СОЗДАЙТЕ УНИКАЛЬНЫЙ ДИЗАЙН</p>
+                                <span class="services-text-sub">
 									Под вашим руководством мы нарисуем мечту, которую вы увидите не выходя из дома и сможете дополнить её свежими идеями, чтобы ни одна деталь не осталась незамеченной, ведь всё должно быть идеально!
 								</span>
-							</div>
-						</div>
-						<div class="services-item">
-							<div class="services-item-number number">
-								<span class="number-one">3</span>
-								<div class="number-icon"><i class="fa fa-globe number-icon-size" aria-hidden="true"></i></div>
-							</div>
-							<div class="services-text">
-								<p class="services-text-head">В ШАГЕ ОТ МЕЧТЫ</p>
-								<span class="services-text-sub">
+                            </div>
+                        </div>
+                        <div class="services-item">
+                            <div class="services-item-number number">
+                                <span class="number-one">3</span>
+                                <div class="number-icon"><i class="fa fa-globe number-icon-size" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="services-text">
+                                <p class="services-text-head">В ШАГЕ ОТ МЕЧТЫ</p>
+                                <span class="services-text-sub">
 									Мы будем оберегать вашу мечту и лично присутствовать при волшебном процессе её создания, а томительное предвкушение чуда превзойдёт самые яркие ожидания. Просто позвоните нам!
 								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content-bot clearfix">
-					<div class="price-left">
-						<div class="price-left-icon">
-							<i class="fa fa-money number-icon-size" aria-hidden="true"></i>
-						</div>
-						<div class="price-left-text">
-							<p class="price-hd">УСЛУГИ И ЦЕНЫ НА ПОШИВ ШТОР</p>
-							<span class="price-txt">Только в мае на все ткани европейских производителей уникальные скидки:<br> ткани производства Испании - 15%,<br> ткани производства Германии - 20%,<br> ткани производства Италии - 30%!</span>
-						</div>
-					</div>
-					<div class="price-table">
-						<div class="wrap-table clearfix">
-							<div class="wrap-table-item">
-								<div class="table-head">
-									<p class="table-head-txt">STANDART</p>
-									<p class="table-head-txt">От 15 000 р.</p>
-								</div>
-								<div class="table-content">
-									<p class="table-content-txt">Простые шторы, но, безусловно, уникальный дизайн от наших мастеров, создадут в доме ощущение гармонии и уюта.</p>
-									<a href="#" class="table-content-btn">заказать</a>
-								</div>
-							</div>
-							<div class="wrap-table-item">
-								<div class="table-head">
-									<p class="table-head-txt">PREMIUM</p>
-									<p class="table-head-txt">От 30 000 р.</p>
-								</div>
-								<div class="table-content">
-									<p class="table-content-txt">Разнообразие дизайнерских решений, которые не только украсят и выделят вашу квартиру, но и станут предметом гордости.</p>
-									<a href="#" class="table-content-btn">заказать</a>
-								</div>
-							</div>
-							<div class="wrap-table-item">
-								<div class="table-head">
-									<p class="table-head-txt">LUXURY</p>
-									<p class="table-head-txt">От 40 000 р.</p>
-								</div>
-								<div class="table-content">
-									<p class="table-content-txt">Уникальные ткани из Италии, Франции и Лондона, под стать вашему интерьеру — это истинная ценность неповторимого дизайна.</p>
-									<a href="#" class="table-content-btn">заказать</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section-people">
-			<div class="people-content  owl-carousel">
-				<div class="people-item">
-					<span class="people-item-name">Екатерина Зубкова</span>
-					<span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
-					<a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
-				</div>
-				<div class="people-item">
-					<span class="people-item-name">Екатерина Зубкова</span>
-					<span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
-					<a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
-				</div>
-				<div class="people-item">
-					<span class="people-item-name">Екатерина Зубкова</span>
-					<span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
-					<a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
-				</div>
-			</div>
-		</section>
-		<section class="section-portfolio" id="portfolio">
-			<div class="container">
-				<div class="container-txt clearfix">
-					<p class="container-txt-left clearfix">портфолио</p>
-					<span class="container-txt-right clearfix">Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.</span>
-				</div>
-				<div class="content-top">
-					<div class="block">
-						<ul class="tabs">
-							<li class="tabs-item"><a href="#" class="tabs-item-meth active">Французские шторы</a></li>
-							<li class="tabs-item"><a href="#" class="tabs-item-meth">Римские шторы</a></li>
-							<li class="tabs-item"><a href="#" class="tabs-item-meth">Шторы с ламбрекеном</a></li>
-							<li class="tabs-item"><a href="#" class="tabs-item-meth">Австрийские шторы</a></li>
-							<li class="tabs-item"><a href="#" class="tabs-item-meth">Итальянские шторы</a></li>
-							<li class="tabs-item"><a href="#" class="tabs-item-meth">Английские шторы</a></li>
-						</ul>
-						<div class="block-slider">
-							<div class="block-slider-item owl-carousel">
-								<div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
-								<div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
-								<div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
-							</div>
-							<div class="block-slider-txt">
-								<p class="curtains-txt">Французские шторы</p>
-								<p class="curtains-txt">Традиционно французские шторы представляют собой каскады полукруглых складок из ткани по всей длине полотна. Такой вариант оформления окон встречается  в театрах, концертных залах, дорогих ресторанах, а также в частных интерьерах, для которых характерны большие пространства и несколько окон в одном помещении. Дизайнеры Benone-Russia используют французские шторы для создания атмосферы торжественности, величия и парадности. Полотно поднимается вверх вручную или при помощи механизма.<br> При подъеме складки собираются в красивые «гроздья».</p>
-								<p class="curtains-txt">Французские шторы — ваш вариант оформления окон, если:<br>
-								Вы любите классику во всех ее проявлениях<br>
-								Вам нравится окружать себя изысканными и элегантными вещами<br>
-								для украшения своих окон вы предпочтете легкие, тонкие, благородные ткани превосходного качества</p>
-								<p class="curtains-txt">Классические интерьеры гостиных, залов, спален и рабочих кабинетов прекрасно дополняются французскими шторами. В атмосфере преобладают аристократизм и возвышенность, обстановка становится праздничной и парадной.<br> Французские шторы — эксклюзивная оправа для окон, которая может быть дополнена ламбрекенами, воланами, де жабо и другими элементами.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content-bot">
-					<div class="wrap-curtains">
-						<div class="wrap-curtains-tabs">
-							<ul class="tabs">
-								<li class="tabs-item"><a href="#" class="tabs-item-meth active">все</a></li>
-								<li class="tabs-item"><a href="#" class="tabs-item-meth">спальни</a></li>
-								<li class="tabs-item"><a href="#" class="tabs-item-meth">кухни</a></li>
-								<li class="tabs-item"><a href="#" class="tabs-item-meth">зал</a></li>
-								<li class="tabs-item"><a href="#" class="tabs-item-meth">загородные дома</a></li>
-								<li class="tabs-item"><a href="#" class="tabs-item-meth">другое</a></li>
-							</ul>
-						</div>
-						<div class="projects">
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo1.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo2.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo3.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>	
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo4.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>	
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo5.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>	
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo6.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>	
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo7.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>	
-							<div class="projects-item">
-								<div class="projects-item-img" style="background-image: url('img/project/photo8.jpg');">
-									<div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
-								</div>
-								<span class="projects-item-hd">название штор</span>
-								<span class="projects-item-txt">Французкие</span>
-							</div>								
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section-reviews">
-			<div class="reviews owl-carousel">
-				<div class="reviews-item">
-					<a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
-					<p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
-					<span class="reviews-item-autor">Артем Иванов</span>
-				</div>
-				<div class="reviews-item">
-					<a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
-					<p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
-					<span class="reviews-item-autor">Артем Иванов</span>
-				</div>
-				<div class="reviews-item">
-					<a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
-					<p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
-					<span class="reviews-item-autor">Артем Иванов</span>
-				</div>
-			</div>
-		</section>
-		<section class="section-interior" id="interior">
-			<div class="container">
-				<div class="container-txt clearfix">
-					<p class="container-txt-left clearfix">интерьер</p>
-					<span class="container-txt-right clearfix">Каждая деталь интерьера играет свою решающую роль в создании идеального пространства</span>
-				</div>
-				<div class="interior">
-					<div class="interior-item clearfix">
-						<div class="interior-item-img" style="background-image: url('img/interior/photo1.jpg');">
-							<p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
-						</div>
-						<div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
-						</div>
-						<div class="interior-item-txt">
-							<p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="interior-btn">подробнее</a>
-						</div>
-					</div>
-					<div class="interior-item clearfix">
-						<div class="interior-item-img" style="background-image: url('img/interior/photo2.jpg');">
-							<p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
-						</div>
-						<div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
-						</div>
-						<div class="interior-item-txt">
-							<p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="interior-btn">подробнее</a>
-						</div>
-					</div>
-					<div class="interior-item clearfix">
-						<div class="interior-item-img" style="background-image: url('img/interior/photo3.jpg');">
-							<p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
-						</div>
-						<div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
-						</div>
-						<div class="interior-item-txt">
-							<p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="interior-btn">подробнее</a>
-						</div>
-					</div>
-					<div class="interior-item clearfix">
-						<div class="interior-item-img" style="background-image: url('img/interior/photo4.jpg');">
-							<p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
-						</div>
-						<div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
-						</div>
-						<div class="interior-item-txt">
-							<p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="interior-btn">подробнее</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section-clients">
-			<p class="section-clients-txt">Наши клиенты</p>
-			<div class="clients owl-carousel">
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo1.png);">
-				</a>
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo2.png);">
-				</a>
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo3.png);">
-				</a>
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo4.png);">
-				</a>
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo1.png);">
-				</a>
-				<a href="#" class="clients-item" style="background-image: url(img/client-logo2.png);">
-				</a>
-				
-			</div>
-		</section>
-		<section class="section-social">
-			<ul class="social">
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-facebook" aria-hidden="true"></i><span class="soc">facebook</span></a></li>
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-twitter" aria-hidden="true"></i><span class="soc">twitter</span></a></li>
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="soc">google +</span></a></li>
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-vk" aria-hidden="true"></i><span class="soc">вконтакте</span></a></li>
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-odnoklassniki" aria-hidden="true"></i><span class="soc">одноклассники</span></a></li>
-				<li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-instagram" aria-hidden="true"></i><span class="soc">instagram</span></a></li>
-			</ul>
-		</section>
-		<footer class="footer">
-			<div class="footer-content clearfix" id="contact">
-				<div class="footer-content-item ">
-					<ul class="Flist">О компании
-					<li class="Flist-item"><a href="#" class="Flist-item-meth">О Benone</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">3D Дизайн</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Услуги и цены</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Пошив штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Всё о товарах</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Карнизы для штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Контакты</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Карта сайта</a></li>
-					</ul>
-				</div>
-				<div class="footer-content-item ">
-					<ul class="Flist">Портфолио
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Дизайн штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Виды штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Стили штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Жилые зоны</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Ткани</a></li>
-					</ul>
-				</div>
-				<div class="footer-content-item ">
-					<ul class="Flist">Все о шторах
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Виды штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Стили штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Жилые зоны</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Ткани для штор</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Шторы на заказ</a></li>
-						<li class="Flist-item"><a href="#" class="Flist-item-meth">Наши партнеры</a></li>
-					</ul>
-				</div>
-				<div class="footer-content-item ">
-					<ul class="Flist">Контакты
-						<li class="Flist-contact"><p class="Flist-contact-meth">Телефон: +38(097) 777 777 77</p></li>
-						<li class="Flist-contact"><p class="Flist-contact-meth">Почта: Wdfdf@sdsd.ua</p></li>
-						<li class="Flist-contact"><p class="Flist-contact-meth">Адресса: предложения своего!</p></li>
-					</ul>
-				</div>
-				<div class="footer-content-item clearfix">
-					<form action="/" class="form-send clearfix" id="form-send">
-						<label for="name" class="form-send-head">Подпишитесь на наши новости</label>
-						<input type="text" name="name" placeholder="Name" class="form-send-name" id="name">
-						<input type="email" name="email" placeholder="E-mail" class="form-send-mail" id="email">
-						<input type="submit" name="submit" class="form-send-btn clearfix" id="submit">
-					</form>
-				</div>
-			</div>
-			<div class="footer-content-txt">
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.
-				Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.</p>
-			</div>
-			<div class="footer-downLine">
-				<p class="footer-downLine-txt">	&copy; 2017</p>
-			</div>
-		</footer>
-		<a href="#header" class="goTop" title="Наверх">
-			<i class="fa fa-arrow-up goTop-arrow" aria-hidden="true"></i>
-		</a>
-	</div>
-<script type="text/javascript" src="js/libs.min.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-bot clearfix">
+                    <div class="price-left">
+                        <div class="price-left-icon">
+                            <i class="fa fa-money number-icon-size" aria-hidden="true"></i>
+                        </div>
+                        <div class="price-left-text">
+                            <p class="price-hd">УСЛУГИ И ЦЕНЫ НА ПОШИВ ШТОР</p>
+                            <span class="price-txt">Только в мае на все ткани европейских производителей уникальные скидки:<br> ткани производства Испании - 15%,<br> ткани производства Германии - 20%,<br> ткани производства Италии - 30%!</span>
+                        </div>
+                    </div>
+                    <div class="price-table">
+                        <div class="wrap-table clearfix">
+                            <div class="wrap-table-item">
+                                <div class="table-head">
+                                    <p class="table-head-txt">STANDART</p>
+                                    <p class="table-head-txt">От 15 000 р.</p>
+                                </div>
+                                <div class="table-content">
+                                    <p class="table-content-txt">Простые шторы, но, безусловно, уникальный дизайн от наших мастеров, создадут в доме ощущение гармонии и уюта.</p>
+                                    <a href="#" class="table-content-btn">заказать</a>
+                                </div>
+                            </div>
+                            <div class="wrap-table-item">
+                                <div class="table-head">
+                                    <p class="table-head-txt">PREMIUM</p>
+                                    <p class="table-head-txt">От 30 000 р.</p>
+                                </div>
+                                <div class="table-content">
+                                    <p class="table-content-txt">Разнообразие дизайнерских решений, которые не только украсят и выделят вашу квартиру, но и станут предметом гордости.</p>
+                                    <a href="#" class="table-content-btn">заказать</a>
+                                </div>
+                            </div>
+                            <div class="wrap-table-item">
+                                <div class="table-head">
+                                    <p class="table-head-txt">LUXURY</p>
+                                    <p class="table-head-txt">От 40 000 р.</p>
+                                </div>
+                                <div class="table-content">
+                                    <p class="table-content-txt">Уникальные ткани из Италии, Франции и Лондона, под стать вашему интерьеру — это истинная ценность неповторимого дизайна.</p>
+                                    <a href="#" class="table-content-btn">заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-people">
+            <div class="people-content  owl-carousel">
+                <div class="people-item">
+                    <span class="people-item-name">Екатерина Зубкова</span>
+                    <span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
+                    <a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
+                </div>
+                <div class="people-item">
+                    <span class="people-item-name">Екатерина Зубкова</span>
+                    <span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
+                    <a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
+                </div>
+                <div class="people-item">
+                    <span class="people-item-name">Екатерина Зубкова</span>
+                    <span class="people-item-txt">“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</span>
+                    <a href="#" class="people-item-photo" style="background-image: url('img/people_item.png');"></a>
+                </div>
+            </div>
+        </section>
+        <section class="section-portfolio" id="portfolio">
+            <div class="container">
+                <div class="container-txt clearfix">
+                    <p class="container-txt-left clearfix">портфолио</p>
+                    <span class="container-txt-right clearfix">Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.</span>
+                </div>
+                <div class="content-top">
+                    <div class="block">
+                        <ul class="tabs">
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth active">Французские шторы</a>
+                            </li>
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth">Римские шторы</a>
+                            </li>
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth">Шторы с ламбрекеном</a>
+                            </li>
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth">Австрийские шторы</a>
+                            </li>
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth">Итальянские шторы</a>
+                            </li>
+                            <li class="tabs-item">
+                                <a href="#" class="tabs-item-meth">Английские шторы</a>
+                            </li>
+                        </ul>
+                        <div class="block-slider">
+                            <div class="block-slider-item owl-carousel">
+                                <div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
+                                <div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
+                                <div class="curtains" style="background-image: url('img/curtains.jpg');"></div>
+                            </div>
+                            <div class="block-slider-txt">
+                                <p class="curtains-txt">Французские шторы</p>
+                                <p class="curtains-txt">Традиционно французские шторы представляют собой каскады полукруглых складок из ткани по всей длине полотна. Такой вариант оформления окон встречается в театрах, концертных залах, дорогих ресторанах, а также в частных интерьерах, для которых характерны большие пространства и несколько окон в одном помещении. Дизайнеры Benone-Russia используют французские шторы для создания атмосферы торжественности, величия и парадности. Полотно поднимается вверх вручную или при помощи механизма.
+                                    <br> При подъеме складки собираются в красивые «гроздья».</p>
+                                <p class="curtains-txt">Французские шторы — ваш вариант оформления окон, если:
+                                    <br> Вы любите классику во всех ее проявлениях
+                                    <br> Вам нравится окружать себя изысканными и элегантными вещами
+                                    <br> для украшения своих окон вы предпочтете легкие, тонкие, благородные ткани превосходного качества</p>
+                                <p class="curtains-txt">Классические интерьеры гостиных, залов, спален и рабочих кабинетов прекрасно дополняются французскими шторами. В атмосфере преобладают аристократизм и возвышенность, обстановка становится праздничной и парадной.
+                                    <br> Французские шторы — эксклюзивная оправа для окон, которая может быть дополнена ламбрекенами, воланами, де жабо и другими элементами.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-bot">
+                    <div class="wrap-curtains">
+                        <div class="wrap-curtains-tabs">
+                            <ul class="tabs">
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth active">все</a>
+                                </li>
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth">спальни</a>
+                                </li>
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth">кухни</a>
+                                </li>
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth">зал</a>
+                                </li>
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth">загородные дома</a>
+                                </li>
+                                <li class="tabs-item">
+                                    <a href="#" class="tabs-item-meth">другое</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="projects">
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo1.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo2.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo3.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo4.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo5.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo6.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo7.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                            <div class="projects-item">
+                                <div class="projects-item-img" style="background-image: url('img/project/photo8.jpg');">
+                                    <div class="project-hover"><i class="fa fa-plus project-hover-icon" aria-hidden="true"></i></div>
+                                </div>
+                                <span class="projects-item-hd">название штор</span>
+                                <span class="projects-item-txt">Французкие</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-reviews">
+            <div class="reviews owl-carousel">
+                <div class="reviews-item">
+                    <a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
+                    <p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
+                    <span class="reviews-item-autor">Артем Иванов</span>
+                </div>
+                <div class="reviews-item">
+                    <a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
+                    <p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
+                    <span class="reviews-item-autor">Артем Иванов</span>
+                </div>
+                <div class="reviews-item">
+                    <a href="#" class=" reviews-item-img" style="background-image: url('img/people_item.png');"></a>
+                    <p class="reviews-item-txt">Отличная компания всем советую к ним обратится.</p>
+                    <span class="reviews-item-autor">Артем Иванов</span>
+                </div>
+            </div>
+        </section>
+        <section class="section-interior" id="interior">
+            <div class="container">
+                <div class="container-txt clearfix">
+                    <p class="container-txt-left clearfix">интерьер</p>
+                    <span class="container-txt-right clearfix">Каждая деталь интерьера играет свою решающую роль в создании идеального пространства</span>
+                </div>
+                <div class="interior">
+                    <div class="interior-item clearfix">
+                        <div class="interior-item-img" style="background-image: url('img/interior/photo1.jpg');">
+                            <p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
+                        </div>
+                        <div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
+                        </div>
+                        <div class="interior-item-txt">
+                            <p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
+                            <a href="#" class="interior-btn">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="interior-item clearfix">
+                        <div class="interior-item-img" style="background-image: url('img/interior/photo2.jpg');">
+                            <p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
+                        </div>
+                        <div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
+                        </div>
+                        <div class="interior-item-txt">
+                            <p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
+                            <a href="#" class="interior-btn">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="interior-item clearfix">
+                        <div class="interior-item-img" style="background-image: url('img/interior/photo3.jpg');">
+                            <p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
+                        </div>
+                        <div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
+                        </div>
+                        <div class="interior-item-txt">
+                            <p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
+                            <a href="#" class="interior-btn">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="interior-item clearfix">
+                        <div class="interior-item-img" style="background-image: url('img/interior/photo4.jpg');">
+                            <p class="interior-txt">«Окно в модерн с ноткой прованс»</p>
+                        </div>
+                        <div class="interior-item-photo" style="background-image: url(img/interior-photo.jpg);">
+                        </div>
+                        <div class="interior-item-txt">
+                            <p class="description">Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
+                            <a href="#" class="interior-btn">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-clients">
+            <p class="section-clients-txt">Наши клиенты</p>
+            <div class="clients owl-carousel">
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo1.png);">
+                </a>
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo2.png);">
+                </a>
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo3.png);">
+                </a>
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo4.png);">
+                </a>
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo1.png);">
+                </a>
+                <a href="#" class="clients-item" style="background-image: url(img/client-logo2.png);">
+                </a>
+            </div>
+        </section>
+        <section class="section-social">
+            <ul class="social">
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-facebook" aria-hidden="true"></i><span class="soc">facebook</span></a></li>
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-twitter" aria-hidden="true"></i><span class="soc">twitter</span></a></li>
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="soc">google +</span></a></li>
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-vk" aria-hidden="true"></i><span class="soc">вконтакте</span></a></li>
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-odnoklassniki" aria-hidden="true"></i><span class="soc">одноклассники</span></a></li>
+                <li class="social-item"><a href="#" class="social-item-meth"><i class="fa fa-instagram" aria-hidden="true"></i><span class="soc">instagram</span></a></li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="footer-content clearfix" id="contact">
+                <div class="footer-content-item ">
+                    <ul class="Flist">О компании
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">О Benone</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">3D Дизайн</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Услуги и цены</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Пошив штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Всё о товарах</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Карнизы для штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Контакты</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Карта сайта</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content-item ">
+                    <ul class="Flist">Портфолио
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Дизайн штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Виды штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Стили штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Жилые зоны</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Ткани</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content-item ">
+                    <ul class="Flist">Все о шторах
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Виды штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Стили штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Жилые зоны</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Ткани для штор</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Шторы на заказ</a>
+                        </li>
+                        <li class="Flist-item">
+                            <a href="#" class="Flist-item-meth">Наши партнеры</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content-item ">
+                    <ul class="Flist">Контакты
+                        <li class="Flist-contact">
+                            <p class="Flist-contact-meth">Телефон: +38(097) 777 777 77</p>
+                        </li>
+                        <li class="Flist-contact">
+                            <p class="Flist-contact-meth">Почта: Wdfdf@sdsd.ua</p>
+                        </li>
+                        <li class="Flist-contact">
+                            <p class="Flist-contact-meth">Адресса: предложения своего!</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content-item clearfix">
+                    <form action="/" class="form-send clearfix" id="form-send">
+                        <label for="name" class="form-send-head">Подпишитесь на наши новости</label>
+                        <input type="text" name="name" placeholder="Name" class="form-send-name" id="name">
+                        <input type="email" name="email" placeholder="E-mail" class="form-send-mail" id="email">
+                        <input type="submit" name="submit" class="form-send-btn clearfix" id="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="footer-content-txt">
+                <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Семь оксмокс коварных, ты обеспечивает ему первую, взгляд рыбными. Рукописи, даже щеке. Все до даже агенство единственное, на берегу запятой имеет.</p>
+            </div>
+            <div class="footer-downLine">
+                <p class="footer-downLine-txt"> &copy; 2017</p>
+            </div>
+        </footer>
+        <a href="#header" class="goTop" title="Наверх">
+            <i class="fa fa-arrow-up goTop-arrow" aria-hidden="true"></i>
+        </a>
+        <div class="hidden">
+            <form action="/" class="form-tell" id="form-tell">
+                <input type="text" name="name" placeholder="Ведите ваши имя..." class="form-tell-name"/>
+                <input type="text" name="tell" placeholder="Введите ваш телефон..." class="form-tell-numb"/>
+                <input  type="submit" name="send" value="Отправить" class="form-tell-btn" />
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/libs.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </body>
+
 </html>

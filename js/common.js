@@ -9,6 +9,15 @@ $(document).ready(function() {
             $('.goTop').css({ 'display': 'none' });
         }
     });
+    //feedback
+    $('.over-header-tell').magnificPopup();
+
+
+    //search
+    $('.icon-item:last-child').click(function () {
+        event.preventDefault();
+        $('.form-search-item').toggleClass('active');
+    });
 
     //sliders
     $('.clients').owlCarousel({
@@ -210,15 +219,20 @@ $(document).ready(function() {
     //deleted animation for mobile
     var isMobile = {
         Android: function() {
-            return navigator.userAgent.match(/Android/i) ? true : false; },
+            return navigator.userAgent.match(/Android/i) ? true : false;
+        },
         BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i) ? true : false; },
+            return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+        },
         iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; },
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+        },
         Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i) ? true : false; },
+            return navigator.userAgent.match(/IEMobile/i) ? true : false;
+        },
         any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows()); }
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+        }
     };
 
     if (!isMobile.any()) {
