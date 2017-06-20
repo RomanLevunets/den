@@ -135,13 +135,15 @@
   border: none;
   -webkit-transition: .5s linear;
   -o-transition: .5s linear;
-  transition: .5s linear; }
+  transition: .5s linear;
+  -webkit-border-radius: 30px;
+          border-radius: 30px; }
   .form-search-item:focus {
     border-color: #A57216;
     background: #fff; }
   .form-search-item.active {
     width: 200px;
-    padding: 0 5px;
+    padding: 0 8px;
     border: 2px solid #C18E32; }
 
 .menu {

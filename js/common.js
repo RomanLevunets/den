@@ -12,6 +12,9 @@ $(document).ready(function() {
     //feedback
     $('.over-header-tell').magnificPopup();
 
+    //phone mask
+    $.mask.definitions['~']='[+-]';
+    $('#phone-number').mask('+38( 999 )-999-99-99');
 
     //search
     $('.icon-item:last-child').click(function () {
